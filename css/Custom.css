@@ -1,0 +1,103 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Cinzel', courier, serif;
+}
+
+ul.nav {
+	font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #00cc80;
+}   
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: serif;
+    padding-top: 10px;
+}
+
+
+.jumbotron h1 {
+	margin: 0px 0px 50px 0px;
+	line-height:125%;
+}
+
+.jumbotron {
+	text-align: center;
+	color: white;
+	background-image: url('https://unsplash.imgix.net/26/city-scape.jpg?q=75&fm=jpg&auto=format&s=5b1c0cdd0bb91275adbf36c3be471242');
+	background-position: center right;
+	background-attachment: fixed;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+	line-height: 150%;
+	font-weight: 100;
+	padding: 0 50px;
+}
+
+.btn-lg {
+	font-size: 30px;
+}
+
+.homepage {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	clear: both;
+}
+
+.homepage h2, .homepage h3 {
+	color: purple;
+	font-family: cinzel, courier, serif;
+}
+
+.homepage h2 {
+	font-size: 35px;
+}
+
+.homepage h3 {
+	font-size: 26px;
+}
+
+.homepage p {
+	font-weight: 300;
+	font-weight: 21px;
+}
+
+.homepage a {
+	color: purple;
+}
+
+.homepage hr {
+	border-color: purple;
+	width: 15%;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#get-involved {
+	background-color: #f5f5f5;
+}
+
+#window {
+	z-index: 0;
+
+}

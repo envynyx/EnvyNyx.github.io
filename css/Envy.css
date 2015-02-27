@@ -1,0 +1,52 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+.well {
+    margin-bottom: 0px;
+}
+
+.well-lg {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    padding: 10px 0px;
+}
+
+.navbar-inverse .navbar-text {
+    color: white;
+    font-size: 35px;
+    font-family: serif;
+}
+
+ul.nav {
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    padding-top: 15px;
+}
+
+.navbar .navbar-text {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #777;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #0088c0;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: #0088c0;
+}
+
+.navbar-text {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
