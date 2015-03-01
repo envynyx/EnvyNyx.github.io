@@ -51,7 +51,7 @@ ul.nav {
     color: #0088c0;
 }
 
-.navbar-inverse .navbar-nav>.active>a {
+.navbar-inverse .navbar-nav>.active-link>a {
     color: white;
 }
 
