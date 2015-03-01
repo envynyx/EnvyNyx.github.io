@@ -11,13 +11,8 @@ body {
 	background-attachment: fixed;
 }
 
-.well {
-    margin-bottom: 0px;
-}
-
-.well-lg {
-    margin-bottom: 0px;
-    margin-top: 10px;
+.jumbotron h1 {
+    font-family: serif;
 }
 
 .navbar-brand {
@@ -28,15 +23,13 @@ body {
     color: white;
     font-size: 30px;
     font-family: serif;
-    text-transform: uppercase
 }
 
 ul.nav {
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     font-family: serif;
     padding-top: 15px;
-    text-transform: uppercase
 }
 
 .navbar .navbar-text {
@@ -49,6 +42,10 @@ ul.nav {
 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #0088c0;
+}
+
+.navbar-inverse .navbar-nav>.active-link>a {
+    color: white;
 }
 
 .navbar-inverse .navbar-nav>.active-link>a {
@@ -68,10 +65,8 @@ ul.nav {
     color: #777
 }
 
-.footer .container .footer .navbar-inverse {
+.footer .container {
     width: 100%;
-    margin-left: 0px;
-    padding-right: 0px;
 }
 
 .footer-address, .footer-links {
