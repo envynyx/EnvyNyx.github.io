@@ -3,6 +3,14 @@ body {
   padding-top: 50px;
 }
 
+.jumbotron {
+	text-align: center;
+	color: white;
+	background-image: url('https://unsplash.imgix.net/photo-1420406676079-b8491f2d07c8?q=75&fm=jpg&s=8db19ba4b3ac8b198d3172ab4e7d2154');
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+
 .well {
     margin-bottom: 0px;
 }
@@ -18,15 +26,17 @@ body {
 
 .navbar-inverse .navbar-text {
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-family: serif;
+    text-transform: uppercase
 }
 
 ul.nav {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: serif;
     padding-top: 15px;
+    text-transform: uppercase
 }
 
 .navbar .navbar-text {
@@ -42,7 +52,7 @@ ul.nav {
 }
 
 .navbar-inverse .navbar-nav>.active>a {
-    color: #0088c0;
+    color: white;
 }
 
 .navbar-text {
@@ -50,3 +60,45 @@ ul.nav {
     margin-bottom: 0px;
 }
 
+.footer p {
+    text-align: center;
+} 
+
+.footer {
+    color: #777
+}
+
+.footer .container .footer .navbar-inverse {
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+.footer-address, .footer-links {
+    list-style: none;
+}
+
+.footer-address {
+    text-align: right;
+}
+
+.footer-links {
+    text-align: left;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.footer .col-xs-6 {
+    width:auto;
+}
