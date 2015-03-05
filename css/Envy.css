@@ -9,6 +9,7 @@ body {
 	background-image: url('https://unsplash.imgix.net/photo-1420406676079-b8491f2d07c8?q=75&fm=jpg&s=8db19ba4b3ac8b198d3172ab4e7d2154');
 	background-position: right bottom;
 	background-attachment: fixed;
+    margin-bottom: 0px;  
 }
 
 .jumbotron h1 {
@@ -27,7 +28,7 @@ body {
 
 ul.nav {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-family: serif;
     padding-top: 15px;
 }
@@ -44,7 +45,11 @@ ul.nav {
     color: #0088c0;
 }
 
-.navbar-inverse .navbar-nav>.active-link>a {
+.navbar-inverse .navbar-nav>li>a:focus:hover {
+    color:white;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
     color: white;
 }
 
@@ -96,4 +101,48 @@ ul.nav {
 
 .footer .col-xs-6 {
     width:auto;
+}
+
+#consulting {
+    background-color: #f5f5f5;
+}
+
+#appsec {
+    background-color: #ebebeb;
+    text-align: right;
+}
+
+#blog {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+#audit {
+    background-color: #f5f5f5;
+}
+
+#blogline {
+    width: 25%;
+    border-top: 1px solid #428bca;
+    margin-top: 10px;
+}
+    
+.feature {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.feature h2 {
+    color: #428bca;
+}
+
+#blog h2 {
+    color: #444;
+    font-family: serif;
+}
+
+#blog-header {
+    color: #428bca;
+    font-weight: 200;
+    font-size: 40px;
 }
