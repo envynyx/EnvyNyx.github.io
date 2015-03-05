@@ -22,13 +22,13 @@ body {
 
 .navbar-inverse .navbar-text {
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-family: serif;
 }
 
 ul.nav {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-family: serif;
     padding-top: 15px;
 }
@@ -135,6 +135,7 @@ ul.nav {
 .feature h2 {
     color: #428bca;
     font-family: serif;
+    font-size: 36px;
 }
 
 #blog h2 {
@@ -159,5 +160,5 @@ ul.nav {
 #miniblog h2 {
 color: #555;
 text-shadow: 0px 1px 0px #fff;
-    
+font-size: 26px;
 }
