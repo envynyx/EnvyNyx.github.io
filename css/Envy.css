@@ -134,6 +134,7 @@ ul.nav {
 
 .feature h2 {
     color: #428bca;
+    font-family: serif;
 }
 
 #blog h2 {
@@ -141,8 +142,22 @@ ul.nav {
     font-family: serif;
 }
 
-#blog-header {
+.feature p {
+    font-size: 16px;
+}
+
+#blog p {
+    font-size: 16px;
+}
+
+#recentblogs h2 {
     color: #428bca;
     font-weight: 200;
     font-size: 40px;
+}
+
+#miniblog h2 {
+color: #555;
+text-shadow: 0px 1px 0px #fff;
+    
 }
