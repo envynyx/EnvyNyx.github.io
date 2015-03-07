@@ -19,6 +19,9 @@ body {
     text-shadow: 2px 2px 1px #333;
 }
 
+.jumbotron .btn {
+    margin: 0px 15px;
+}
 .navbar-brand {
     padding: 10px 0px;
 }
