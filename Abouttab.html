@@ -23,6 +23,7 @@
     <link rel="icon" type="image/png" href="images/rc-logo.png">
     <link href="css/Envy.css" rel="stylesheet">
     <link href="css/events.css" rel="stylesheet">
+    <link href="c/stickyfooter.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -62,75 +63,12 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-      
-    <div class="leftblock">
-        <div class="container feature">
-            <H2> <i class=" fa fa-comments-o"></i> Why Resonant Core?</H2>
-            <ul>
-                <li>
-                <b>Because you care about a progressive future.</b>
-                <p>
-                Technology moves fast, why shouldn't your business? The consultants at Resonant Core are passionate about saving your time and reducing cognitive load.
-                The solutions we build get the job done as efficiently as possible, then get out of your way.
-                </p>
-                </li>
-                <li>
-                <b>We strive for excellence in everything we do.</b>
-                <p>
-                Although our team has over a decade in software development experience, we are always learning and refining our knowledge.
-                We combine the best of the bleeding edge with the insights of history to make optimal strategic decisions.
-                </p>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div id="why" class="leftblock">
-        <div class="container feature">
-            <h2>What is Resonant Core? <i class="fa fa-code"></i></h2>  
-                        <p>
-            Resonant Core is team of consultants, software developers, and security engineers based in Orlando, FL.
-            We specialize in developing web-based solutions to business needs.
-            </p>
-            <h3>Resonant Core…</h3>
-                <ul>
-                    <li>
-                    <b>…creates and improves software for businesses big and small.</b><br>
-                    Our experienced consultants will help identify key areas to innovate for the highest return on investment.
-                    </li>
-                    <li>
-                    <b>…is backed by people with over a decade of practical web development experience.</b><br>
-                    Technologies we have used (to great effect) in the past include:
-                        <ul>
-                            <li>
-                            <label class="about_sublist">Presentation:</label>
-                            HTML5, CSS3, Javascript, jQuery, Underscore.js
-                            </li>
-                            <li>
-                            <label class="about_sublist">Server-Side:</label>
-                            PHP, Python
-                            </li>
-                            <li>
-                            <label class="about_sublist">Client-Side:</label>
-                            NW.js, Java, .NET
-                            </li>
-                            <li>
-                            <label class="about_sublist">Database:</label>
-                            PostgreSQL, MySQL, SQLite, SQL Server
-                            </li>
-                            <li>
-                            <label class="about_sublist">Webservers:</label>
-                            nginx, Apache
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                    <b>…solves challenging problems and automates time-consuming processes.</b><br>
-                    Our mission is to eliminate timesinks that keep business owners away from home.
-                    </li>
-                </ul>
-        </div>
-    </div>
-    <div class="leftblock">
+    <div class="wrapper">
+        <div class="leftblock">
+        <div class="container feature" >
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Link with href</a>
+                <div class="collapse" id="collapseExample">
         <div class="container feature">
         <h2><i class="fa fa-search"></i> Our Commitment & Experience</h2>
             <p>
@@ -226,10 +164,11 @@
                 </ul>
                 </div>
         </div>  
+                </div>
+        </div>  
     </div>
-
-    </div>
-      <footer class="footer">
+    
+      <footer class="footer" id="footer">
         <div class="container footer navbar-inverse" style="width: 100%; padding-top: 10px; position:relative; bottom: 0;">
             <p>Copyright © 2015 Resonant Core, LLC. All right reserved. Blogs are released under Creative Commons.</p>
             <div class="row row-centered">
@@ -252,6 +191,7 @@
                 </div>
           </div>
       </footer>
+      </div>
      <!-- /container -->
 
 

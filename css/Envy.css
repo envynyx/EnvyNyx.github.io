@@ -191,3 +191,72 @@ color: #555;
 text-shadow: 0px 1px 0px #fff;
 font-size: 26px;
 }
+
+#formstyle {
+    width: 400px;
+    text-align: left;
+    padding: 5%;
+    background-color: #777;
+    border-radius: 10px;
+    color: #f5f5f5
+    
+}
+
+.formmargin {
+    margin-top: 20px;
+}
+
+.forminput {
+    cursor: auto;
+    width: 100%;
+    border-radius: 3px;
+    padding: 4px;
+    color: #333;
+    box-shadow: 2px 2px 2px #fff;
+}
+
+.formtext {
+    width: 100%;
+    max-width: 100%;
+    padding: 4px;
+    border-radius: 3px;
+    color: #333;
+    box-shadow: 2px 2px 2px #fff;
+}
+
+.formlabel {
+    padding-top: 10px;
+    font-family: serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #777;
+    color: #ebebeb;
+}
+
+.formbutton {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.formcenter {
+    text-align: center;
+}
+
+.formheader {
+    font-family: monospace;
+    font-size: 12px;
+    width: 100%
+}
+
+.contactus ul {
+    list-style-type: none;
+    width: 95%;
+}
+
+.contactus fa {
+    padding-right: 5px;
+}
+
+.formheader {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}

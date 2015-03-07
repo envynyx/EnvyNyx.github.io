@@ -24,10 +24,6 @@
     <link href="css/Envy.css" rel="stylesheet">
     <link href="css/events.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -69,13 +65,81 @@
       
    <div class="leftblock">
         <div class="container feature" >
-        <h2><i class="fa fa-envelope"></i> Contact Us</h2>
-            <p>Coming Soon -- Contact Us Form.</p>
-        </div>  
+                <div class="row">
+                    <div class="col-md-8 contactus">
+                        <h2><i class="fa fa-envelope"></i> Contact Resonant Core</h2>
+                            <ul>
+                                <li><h3><i class="fa fa-question-circle fa-fw" ::before></i> Serices & Estimates</h3></li>
+                                    <ul><li><b>Resonant Core is accepting new clients.</b> Please send an email to <a                                                               href="mailto:robyn@resonantcore.net">Robyn@Resonantcore.net</a> or use the form on thispage to get in touch                                         with our team.</li></ul>
+                                <li><h3><i class="fa fa-gears fa-fw" ::before></i> Technical Advice/Open Source Community Outreach</h3></li>
+                                    <ul><li>For technical inquiries, security issues, or questions about on or more of our free and open source software projects, send an email to <a href="mailto:scott@resonantcore.net">Scott@Resonantcore.net</a>, or use the contact form on this page.<br><br>If you are writing to address a security issue, feel free to use Scott's <a href="#">GnuPG Key</a> to encrypt your message.</li></ul>
+                                <li><h3><i class="fa fa-envelope-o fa-fw" ::before></i> General Inquiries</h3></li>
+                                    <ul><li>If your question is not related to our services, technology, or community involvement, we still want to hear from you. Please feel free to share your thoughts and feelings about our company with us, either by either email or our contact form on this page.</li></ul>
+                            </ul>         
+                    </div>
+                                                <div class="col-md-4 formmargin">
+                            <div class="navbar-inverse" id="formstyle">
+                
+                            <div class="formheader well-sm">
+                                We strive to reply to every email within 24 hours.
+                            </div>
+                
+                            <form method="post"> <input type="hidden" name="_CSRF_INDEX" value="ec5DqFDeUrbyWR/W4ARhuITR"> <input type="hidden" name="_CSRF_TOKEN" value="RCgT3AOdxJqMO6haJaik4bkQzo7+y1Npj5+X1QesWZg=">
+                            <div class="contact_form_row">
+                            <label class="formlabel" for="contactform_name">
+                            What is your name?
+                            </label><br>   
+                            <input class="forminput" type="text" id="contactform_name" name="name" placeholder="Your Name" required="required" style="cursor: auto;">
+                            </div>
+                            <div class="contact_form_row">
+                            <label class="formlabel" for="contactform_company">
+                            What company are you representing?
+                            </label>
+                            <input class="forminput" type="text" id="contactform_company" name="company" placeholder="Your Company  (not required)">
+                            </div>
+                            <div class="contact_form_row">
+                            <label class="formlabel" for="contactform_email">
+                            Where should we direct our response?
+                            </label>
+                            <input class="forminput" type="text" id="contactform_email" name="email" placeholder="yourname@example.com">
+                            </div>
+                            <div class="contact_form_row">
+                            <label class="formlabel" for="contactform_phone">
+                            Would you like us to call you?
+                            </label>
+                            <input class="forminput" type="tel" id="contactform_phone" name="phone" placeholder="407-555-1234">
+                            </div>
+                            <div class="contact_form_row">
+                            <label class="formlabel" for="contactform_subject">
+                            What's on your mind?
+                            </label>
+                            <select id="contactform_subject" class="forminput" name="subject">
+                            <option value="Services and Estimates">Services and Estimates</option>
+                            <option value="Technical Advice">Technical Advice</option>
+                            <option value="Open Source Community Outreach">Open Source Community Outreach</option>
+                            <option value="General Inquiries">General Inquiries (Other)</option>
+                            </select>
+                            </div>
+                            <div class="contact_form_row">
+                            <label class="formlabel" for="contactform_body">
+                            What would you like to say?
+                            </label>
+                            <textarea class="formtext" id="contactform_body" name="body" placeholder="Our awesome company would like to work with you on an ambitious, groundbreaking project."></textarea>
+                            </div>
+                            <div class="formcenter">
+                            <button type="submit" class="btn btn-primary formbutton">
+                            <i class="fa fa-send-o"></i>
+                            Send Email
+                            </button>
+                            </div>
+                            </form>
+                            </div>
+                            </div>
+                </div>  
     </div>
 
     </div>
-      <footer class="footer" id="footer">
+      <footer class="footer">
         <div class="container footer navbar-inverse" style="width: 100%; padding-top: 10px; position:relative; bottom: 0;">
             <p>Copyright © 2015 Resonant Core, LLC. All right reserved. Blogs are released under Creative Commons.</p>
             <div class="row row-centered">
