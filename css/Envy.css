@@ -1,19 +1,22 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
+  background-color: #f5f5f5;
 }
 
 .jumbotron {
 	text-align: center;
-	color: white;
+	color: #eeeeee;
+    text-shadow: 2px 2px 1px #333;
 	background-image: url('https://unsplash.imgix.net/photo-1420406676079-b8491f2d07c8?q=75&fm=jpg&s=8db19ba4b3ac8b198d3172ab4e7d2154');
-	background-position: right bottom;
+	background-position: bottom;
 	background-attachment: fixed;
     margin-bottom: 0px;  
 }
 
 .jumbotron h1 {
     font-family: serif;
+    text-shadow: 2px 2px 1px #333;
 }
 
 .navbar-brand {
@@ -39,6 +42,7 @@ ul.nav {
 
 .navbar-inverse .navbar-nav>li>a {
     color: #777;
+    padding: 15px 10px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -49,11 +53,11 @@ ul.nav {
     color:white;
 }
 
-.navbar-inverse .navbar-nav>.active>a {
+.navbar-inverse .navbar-nav>.active-link>a {
     color: white;
 }
 
-.navbar-inverse .navbar-nav>.active-link>a {
+.navbar-inverse .navbar-nav>.active-link>a:hover {
     color: white;
 }
 
@@ -67,8 +71,16 @@ ul.nav {
 } 
 
 .footer {
-    color: #777
+    color: #777;
 }
+
+#footer {
+    color: #777;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 
 .footer .container {
     width: 100%;
@@ -101,6 +113,20 @@ ul.nav {
 
 .footer .col-xs-6 {
     width:auto;
+}
+
+.leftblock {
+    text-align: left;
+    background-color: #f5f5f5;
+}
+
+.rightblock {
+    text-align: right;
+    background-color: #ebebeb;
+}
+
+#why {
+    background-color: #ebebeb;
 }
 
 #consulting {
