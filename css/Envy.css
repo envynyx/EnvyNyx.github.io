@@ -235,6 +235,7 @@ font-size: 26px;
 .formbutton {
     margin-top: 10px;
     text-align: center;
+    padding-left: 5%;
 }
 
 .formcenter {
