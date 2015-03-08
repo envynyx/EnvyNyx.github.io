@@ -23,7 +23,6 @@
     <link rel="icon" type="image/png" href="images/rc-logo.png">
     <link href="css/Envy.css" rel="stylesheet">
     <link href="css/events.css" rel="stylesheet">
-    <link href="c/stickyfooter.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -63,113 +62,58 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <div class="wrapper">
+      
         <div class="leftblock">
-        <div class="container feature" >
-            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            Link with href</a>
-                <div class="collapse" id="collapseExample">
-        <div class="container feature">
-        <h2><i class="fa fa-search"></i> Our Commitment & Experience</h2>
-            <p>
-            Resonant Core is committed to building platforms that are efficient, secure, easy-to-use, and maintainable.
-            We build upon the resilience of open source software and contribute our innovations back to the community.
-            </p>
-            <h3>Business Successes</h3>
-                <div class="about_how">
-                <ul>
-                <li>
-                <h4>EMR Integration</h4>
-                <p>
-                Resonant Core employees worked with an online doctor appointment service to integrate their
-                appointment scheduling process with several third-party <acronym title="Electronic Medical Records">EMR</acronym>
-                providers, resulting in less frustration for doctors and patients alike.
-                </p>
-                <p>
-                We also identified and repaired several programming mistakes made by an offshore team that
-                previously worked on the project that could have resulted in a full server compromise and
-                complete access to protected health information. (Thankfully, it did not.)
-                </p>
-                </li>
-                <li>
-                <h4>Android App Migration</h4>
-                <p>
-                Members of the Resonant Core team worked with one of the largest cell tower construction
-                companies to migrate an incredibly slow Android native app to a modern, cross-platform HTML5
-                architecture with offline capability (acheived through use of the application cache and
-                HTML5's localStorage feature).
-                </p>
-                <p>
-                In addition to a significant speed increase from both a superior architecture and a relational
-                database backend, the new app also offered in-app photo editing and annotations, automated reporting,
-                and an ad-hoc reporting tool.
-                </p>
-                </li>
-                </ul>
+            <div class="container feature" >
+                
+                
+                <div role="tabpanel">
+
+                      <!-- Nav tabs -->
+                    <div class="centerblock" id="navtabs">
+                      <ul role="tablist">
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">What We Are</a></li>
+                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Our Experience</a></li>
+                      </ul>
+                    </div>
+                        <hr id="navdivide">
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                                <div class="leftblock">
+                                    <div class="container feature">
+                                        <H2> <i class=" fa fa-comments-o"></i> Why Resonant Core?</H2>
+                                        <ul>
+                                            <li>
+                                            <b>Because you care about a progressive future.</b>
+                                            <p>
+                                            Technology moves fast, why shouldn't your business? The consultants at Resonant Core are passionate about saving your time and reducing cognitive load.
+                                            The solutions we build get the job done as efficiently as possible, then get out of your way.
+                                            </p>
+                                            </li>
+                                            <li>
+                                            <b>We strive for excellence in everything we do.</b>
+                                            <p>
+                                            Although our team has over a decade in software development experience, we are always learning and refining our knowledge.
+                                            We combine the best of the bleeding edge with the insights of history to make optimal strategic decisions.
+                                            </p>
+                                            </li>
+                                        </ul>
+                                </div>
+                            </div>  
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                        <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                      </div>
+
                 </div>
-            <h3>Improving Open Source Projects / Security Research</h3>
-                <div class="about_how">
-                <ul>
-                <li>
-                <h4>Facebook SDK v4</h4>
-                <p>
-                We improved the random number generator used throughout the Facebook Software Development Kit to produce
-                cryptographically secure output, which nontrivially increases the security of the functions that rely on
-                randomness in apps that use newer versions of the Facebook SDK.
-                </p>
-                </li>
-                <li>
-                <h4>WordPress Core</h4>
-                <p>
-                A member of Resonant Core enhanced WordPress's random number generator to rely on the system entropy pool
-                instead of a userspace random number generator.
-                </p>
-                <p>
-                We also audited and advocated a proposed feature that would allow WordPress's auto-update mechanism to deliver
-                digitally signed updates (with an offline key) to protect the tens of millions of WordPress users in the
-                event of a <code>wordpress.org</code> compromise.
-                </p>
-                </li>
-                <li>
-                <h4>CodeIgniter Framework</h4>
-                <p>
-                One of our team members identified weaknesses with the CodeIgniter session library that, in the hands of a
-                sophisticated attacker, could result in <b>remote code execution.</b> The discussion that followed resulted
-                in a new, stronger encryption library consistent with industry best practices. The vulnerabilities we identified
-                were fixed in CodeIgniter 2.2.0 and the relevant feature is slated to be removed in verison 3.
-                </p>
-                </li>
-                <li>
-                <h4>Yii Framework v2</h4>
-                <p>
-                When reviewing the Yii2 framework, we discovered an inconsistency in how random numbers were being generated.
-                While most of their security code was following industry best standards, their password hashing library was
-                relying on a Merseinne Twister for random salts (which can be predictable). Predictable salts can lead
-                to salted hash collisions (if the passwords are the same). This was fixed before Yii2 was officially released.
-                </p>
-                </li>
-                <li>
-                <h4>The PHP League's OAuth2 Server</h4>
-                <p>
-                Resonant Core's consultants improved the security of OAuth2 Server library provided by the
-                <a href="http://thephpleague.com/">League of Extraordinary PHP Packages</a> by ensuring the key generation
-                algorithm always returns the correct key size.
-                </p>
-                <p>
-                We also identified that their <code>hash_equals()</code> implementation had the side-effect of defining the function
-                inside of their current namespace. While this is not a security or performance concern, it does violate software
-                engineering best practices; so, we fixed that too.
-                </p>
-                </li>
-                </ul>
-                </div>
-        </div>  
-                </div>
-        </div>  
-    </div>
+            </div>  
+        </div>
+
     
-      <footer class="footer" id="footer">
-        <div class="container footer navbar-inverse" style="width: 100%; padding-top: 10px; position:relative; bottom: 0;">
+      <footer class="footer">
+        <div class="container navbar-inverse" style="width: 100%; padding-top: 10px; position:relative; bottom: 0;">
             <p>Copyright © 2015 Resonant Core, LLC. All right reserved. Blogs are released under Creative Commons.</p>
             <div class="row row-centered">
                     <div class="col-xs-6 col-centered">

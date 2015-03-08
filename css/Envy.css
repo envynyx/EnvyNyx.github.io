@@ -5,18 +5,18 @@ html {
 }
 
 body {
-  padding-top: 50px;
+    padding-top: 50px;
     margin-bottom: 112px;
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 .jumbotron {
 	text-align: center;
-	color: #eeeeee;
-    text-shadow: 2px 2px 1px #333;
-	background-image: url('https://unsplash.imgix.net/photo-1420406676079-b8491f2d07c8?q=75&fm=jpg&s=8db19ba4b3ac8b198d3172ab4e7d2154');
-	background-position: bottom;
-	background-attachment: fixed;
+	color: #fff;
+    text-shadow: 5px 5px 5px #000;
+	background-image: url("../images/homebg.jpg");
+	background-position: bottom center;
+	background-attachment: fixed;  
     margin-bottom: 0px;  
 }
 
@@ -139,6 +139,16 @@ ul.nav {
     background-color: #ebebeb;
 }
 
+.centerblock {
+    text-align: center;
+    background color: #f5f5f5;
+    list-style-type: none;
+}
+
+.centerblock li {
+    display: inline;
+}
+
 #why {
     background-color: #ebebeb;
 }
@@ -198,9 +208,9 @@ ul.nav {
 }
 
 #miniblog h2 {
-color: #555;
-text-shadow: 0px 1px 0px #fff;
-font-size: 26px;
+    color: #555;
+    text-shadow: 0px 1px 0px #fff;
+    font-size: 26px;
 }
 
 #formstyle {
@@ -209,7 +219,8 @@ font-size: 26px;
     padding: 5%;
     background-color: #777;
     border-radius: 10px;
-    color: #f5f5f5
+    color: #f5f5f5;
+    box-shadow: 5px -5px 5px #999;
     
 }
 
@@ -223,7 +234,7 @@ font-size: 26px;
     border-radius: 3px;
     padding: 4px;
     color: #333;
-    box-shadow: 2px 2px 2px #fff;
+    /*box-shadow: -1px 1px 2px #999;*/
 }
 
 .formtext {
@@ -232,14 +243,14 @@ font-size: 26px;
     padding: 4px;
     border-radius: 3px;
     color: #333;
-    box-shadow: 2px 2px 2px #fff;
+    /*box-shadow: 2px 2px 2px #fff;*/
 }
 
 .formlabel {
     padding-top: 10px;
     font-family: serif;
     font-size: 16px;
-    text-shadow: 1px 1px 1px #777;
+    /*text-shadow: 1px 1px 0px #777;*/
     color: #ebebeb;
 }
 
@@ -254,9 +265,10 @@ font-size: 26px;
 }
 
 .formheader {
-    font-family: monospace;
-    font-size: 12px;
-    width: 100%
+    font-family: serif;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
 }
 
 .contactus ul {
@@ -264,11 +276,8 @@ font-size: 26px;
     width: 95%;
 }
 
-.contactus fa {
-    padding-right: 5px;
-}
-
-.formheader {
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 10px;
+.formheader hr {
+    padding: 0px;
+    border: solid 1px;
+    margin: 5px;
 }
