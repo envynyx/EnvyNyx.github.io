@@ -5,37 +5,41 @@ html {
 }
 
 body {
-    padding-top: 50px;
-    margin-bottom: 112px;
-    background-color: #f5f5f5;
+    padding-top: 0px;
+    margin-bottom: 50px;
+    background-color: #000;
+    font-family: "Open Sans";
 }
 
-.jumbotron {
-	text-align: center;
-	color: #fff;
-    text-shadow: 5px 5px 5px #000;
-	background-image: url("../images/homebg.jpg");
-	background-position: bottom center;
-	background-attachment: fixed;  
-    margin-bottom: 0px;  
+/* Navbar Customuization */
+
+.navbar {
+    /*margin-top: 50px;*/
+    max-height: 55px;
 }
 
-.jumbotron h1 {
-    font-family: serif;
-    text-shadow: 2px 2px 1px #333;
+#logo {
+    height: 75px;
+    width: 75px;
 }
 
-.jumbotron .btn {
-    margin: 0px 15px;
-}
+
 .navbar-brand {
-    padding: 10px 0px;
+    margin: 0px 0px;
+    padding: 5px 0px;
 }
 
-.navbar-inverse .navbar-text {
-    color: white;
-    font-size: 35px;
-    font-family: serif;
+.navbar-trans {
+    background-color: #111;
+    opacity: 0.95;
+    background-image: none; 
+}
+
+ .navbar-inverse .navbar-text {
+    color: #fff;
+    font-size: 30px;
+    font-family: Cinzel, serif;
+    font-weight: 500;
 }
 
 ul.nav {
@@ -45,71 +49,231 @@ ul.nav {
     padding-top: 15px;
 }
 
-.navbar .navbar-text {
-    color: white;
+ul.nav a {
+    padding: 10px 10px;
+    font-size: 22px;
+    font-family: Play, serif;
 }
 
 .navbar-inverse .navbar-nav>li>a {
     color: #777;
-    padding: 15px 10px;
+    padding-top; 5px;
+    
 }
 
+/*#navbar > ul.nav.navbar-nav.navbar-right.uppercase > li > a {
+    padding-top: 10px;
+    
+    #7f1ae5 - Ultra Violet
+
+}*/
+
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #0088c0;
+    color: #0088cc;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus:hover {
-    color:white;
+    color: White;
 }
 
-.navbar-inverse .navbar-nav>.active-link>a {
+/* Dropdown Menu */
+
+#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div {
+    margin-top: 5px;
+}
+
+#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > a {
+    color: #777;
+    padding-top; 5px;
+}
+
+#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > a:hover {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > a:focus {
     color: white;
+    text-decoration: none;
 }
 
-.navbar-inverse .navbar-nav>.active-link>a:hover {
-    color: white;
+#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > a:focus:hover {
+     color: White;
+    text-decoration: none;
 }
 
-.navbar-text {
-    margin-top: 15px;
-    margin-bottom: 0px;
+#navbar > ul.nav.navbar-nav.navbar-right.uppercase {
+    display: inline-flex;
 }
 
-.footer p {
-    text-align: center;
-} 
+.navbar-right .dropdown-menu {
+    right: auto;
+    left: auto;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus  {
+            background-color: #111;
+            opacity: 0.95;
+            padding-bottom: 0px;
+        }
+
+
+#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > ul > li> a {
+    font-size: 16px;
+}
+
+/* End Navbar Customization */
+
+/* Footer Customization */
 
 .footer {
     color: #777;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 112px;
+    height: 50px;
 }
-
-#footer {
-    color: #777;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 112px;
-}
-
 
 .footer .container {
     width: 100%;
 }
 
-.footer-address, .footer-links {
-    list-style: none;
+.footercopy {
+    text-align: left;
 }
 
-.footer-address {
+.footerlinks {
     text-align: right;
 }
 
-.footer-links {
-    text-align: left;
+.footer i {
+    padding-right: 5px;
+}
+
+.footer a {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+/* End Footer Customization */
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url("../images/backg.jpg");
+    background-position: bottom center;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    padding-top: 100px;
+    text-align: center;
+    color: #ebebeb;
+    font-family: sans-serif;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0px;
+
+}
+
+#jumbotron {
+    padding-bottom: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.jumbotron h1 {
+    font-family: Cinzel, serif;
+}
+
+.homemail {
+    position: static;
+    bottom: 0;
+    opacity: 0.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* End Jumbotron */
+
+/* feature*/
+
+.feature {
+    padding: 30px;
+    background-color: #ebebeb;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 15px;
+}
+
+.feature h2 {
+    font-family: "Open Sans", serif;
+    color: #0088cc;
+    margin-bottom: 5px;
+}
+
+.feature h3 {
+    font-family: play;
+}
+
+.feature hr {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #bbb;
+    width: 50%;
+}
+
+.feature h1 {
+    font-family: cinzel;
+}
+
+.banner h4 {
+    font-family: "";
+    color: #666;
+}
+
+.banner h2 {
+    color: #0088cc;
+}
+
+.feature img {
+    height: 150x;
+    width: 325px;
+    text-align: center;
+}
+
+.boxs:hover { 
+    border: 5px solid #f0ad4e;
+}
+
+
+.marketing h3 {
+    color: #0088cc;
+}
+
+.glass {
+    background-color: #111;
+    opacity: 0.5;
+    color: #ebebeb;
+}
+
+.banner {
+    padding-top:10px;
+    padding-bottom: 20px;
+    background-color: #dddddd;
+}
+
+body > div.feature.marketing > hr {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #bbb;
+    width: 100%;
 }
 
 /* centered columns styles */
@@ -124,160 +288,9 @@ ul.nav {
     /* inline-block space fix */
     margin-right:-4px;
 }
+/* End Centered Columns */
 
-.footer .col-xs-6 {
-    width:auto;
-}
-
-.leftblock {
-    text-align: left;
-    background-color: #f5f5f5;
-}
-
-.rightblock {
-    text-align: right;
-    background-color: #ebebeb;
-}
-
-.centerblock {
-    text-align: center;
-    background color: #f5f5f5;
-    list-style-type: none;
-}
-
-.centerblock li {
-    display: inline;
-}
-
-#why {
-    background-color: #ebebeb;
-}
-
-#consulting {
-    background-color: #f5f5f5;
-}
-
-#appsec {
-    background-color: #ebebeb;
-    text-align: right;
-}
-
-#blog {
-    background-color: #ebebeb;
-    text-align: center;
-}
-
-#audit {
-    background-color: #f5f5f5;
-}
-
-#blogline {
-    width: 25%;
-    border-top: 1px solid #428bca;
-    margin-top: 10px;
-}
+/*.uppercase {
+    text-transform: uppercase;
+}*/
     
-.feature {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.feature h2 {
-    color: #428bca;
-    font-family: serif;
-    font-size: 36px;
-}
-
-#blog h2 {
-    color: #444;
-    font-family: serif;
-}
-
-.feature p {
-    font-size: 16px;
-}
-
-#blog p {
-    font-size: 16px;
-}
-
-#recentblogs h2 {
-    color: #428bca;
-    font-weight: 200;
-    font-size: 40px;
-}
-
-#miniblog h2 {
-    color: #555;
-    text-shadow: 0px 1px 0px #fff;
-    font-size: 26px;
-}
-
-#formstyle {
-    width: 400px;
-    text-align: left;
-    padding: 5%;
-    background-color: #777;
-    border-radius: 10px;
-    color: #f5f5f5;
-    box-shadow: 5px -5px 5px #999;
-    
-}
-
-.formmargin {
-    margin-top: 20px;
-}
-
-.forminput {
-    cursor: auto;
-    width: 100%;
-    border-radius: 3px;
-    padding: 4px;
-    color: #333;
-    /*box-shadow: -1px 1px 2px #999;*/
-}
-
-.formtext {
-    width: 100%;
-    max-width: 100%;
-    padding: 4px;
-    border-radius: 3px;
-    color: #333;
-    /*box-shadow: 2px 2px 2px #fff;*/
-}
-
-.formlabel {
-    padding-top: 10px;
-    font-family: serif;
-    font-size: 16px;
-    /*text-shadow: 1px 1px 0px #777;*/
-    color: #ebebeb;
-}
-
-.formbutton {
-    margin-top: 10px;
-    text-align: center;
-    padding-left: 5%;
-}
-
-.formcenter {
-    text-align: center;
-}
-
-.formheader {
-    font-family: serif;
-    font-size: 16px;
-    width: 100%;
-    text-align: center;
-}
-
-.contactus ul {
-    list-style-type: none;
-    width: 95%;
-}
-
-.formheader hr {
-    padding: 0px;
-    border: solid 1px;
-    margin: 5px;
-}

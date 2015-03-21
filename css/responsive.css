@@ -1,0 +1,30 @@
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 1px) and (max-width: 767px) { 
+
+        body > nav {
+            margin-bottom: 0px;
+            }
+    
+        div#navbar {
+            background-color: #111;
+            opacity: 0.95;
+            background-image: none; 
+            margin-top: 0px;
+            padding-top: 0px;
+            }
+    
+        #navbar > ul.nav.navbar-nav.navbar-right.uppercase  {
+            display: block;
+        }
+        
+        #navbar > ul > div > a {
+            background-color: #111;
+            opacity: 0.95;
+            background-image: none; 
+        }
+    
+        body > nav > div > div.navbar-header > p {
+            margin-bottom: 0px;
+        }
+    
+}
