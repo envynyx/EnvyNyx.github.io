@@ -19,14 +19,14 @@ body {
 }
 
 #logo {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
 }
 
 
 .navbar-brand {
     margin: 0px 0px;
-    padding: 5px 0px;
+    padding: 15px 0px;
 }
 
 .navbar-trans {
@@ -86,22 +86,22 @@ ul.nav a {
     margin-top: 5px;
 }
 
-#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > a {
+.navbar-inverse .navbar-nav> div > a {
     color: #777;
     padding-top; 5px;
 }
 
-#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > a:hover {
+.navbar-inverse .navbar-nav> div > a:hover {
     color: #0088cc;
     text-decoration: none;
 }
 
-#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > a:focus {
+.navbar-inverse .navbar-nav> div > a:focus {
     color: white;
     text-decoration: none;
 }
 
-#navbar > ul.nav.navbar-nav.navbar-right.uppercase > div > a:focus:hover {
+.navbar-inverse .navbar-nav> div > a:focus:hover {
      color: White;
     text-decoration: none;
 }
