@@ -19,8 +19,12 @@ body {
 }
 
 #logo {
-    height: 50px;
-    width: 50px;
+    height: 32px;
+    width: 42px;
+}
+
+.navbar-text {
+    margin-left: 10px;
 }
 
 
