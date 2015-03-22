@@ -175,6 +175,10 @@ ul.nav a {
     text-decoration: none;
 }
 
+#breakfix {
+    width: 100%;
+}
+
 /* End Footer Customization */
 
 /* Jumbotron */
@@ -218,7 +222,7 @@ ul.nav a {
 
 .feature {
     padding: 30px;
-    background-color: #ebebeb;
+    background-color: #f5f5f5;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
@@ -264,6 +268,14 @@ ul.nav a {
     padding: 00px;
     background-color: #f5f5f5;
 }
+
+.infoblock {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 00px;
+    background-color: #f5f5f5;
+}
+    
 
 .exprow {
     margin-right: 0px;
@@ -313,6 +325,7 @@ ul.nav a {
     opacity: .8;
 }
 
+
 .servtext {
     padding: 20px;
 }
@@ -339,9 +352,9 @@ body > div > div > div:nth-child(3) > div > h3 > hr {
 }
 
 .wallpaper {
-    background-color: #ebebeb;
+    background-color: #f5f5f5;
     padding-top: 75px;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .wallpaper h2 {
