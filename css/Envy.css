@@ -8,7 +8,7 @@ body {
     padding-top: 0px;
     margin-bottom: 50px;
     background-color: #ebebeb;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Navbar Customuization */
@@ -113,6 +113,14 @@ ul.nav a {
 .navbar-right .dropdown-menu {
     right: auto;
     left: auto;
+}
+
+#active {
+    color: white;
+}
+
+#activedrop {
+    color: #0088cc;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus  {
@@ -245,11 +253,44 @@ ul.nav a {
     display: flex;
 }
 
+.exp {
+    border: 1px solid #bbb;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 00px;
+    background-color: #f5f5f5;
+}
+
+.exprow {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.exptop {
+    padding: 20px 20px 0px 20px;
+    margin: 0px;
+    background-color: #777;
+    opacity: .8;
+    padding: 10px;
+}
+
+.exprow:hover {
+    border: 0px solid white;
+}
+
+.exptext {
+    padding: 20px;
+}
+
+
+
 .serv {
     border: 1px solid #bbb;
     margin-left: 10px;
     margin-right: 10px;
     padding: 20px;
+    background-color: #f5f5f5;
+    padding: 0px;
 }
 
 .serv2 {
@@ -259,6 +300,17 @@ ul.nav a {
 .serv:hover {
     border: 1px solid #bbb;
     box-shadow: 0px 0px 10px #777;
+}
+
+.servtop {
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 20px;
+    background-color: #777;
+    opacity: .8;
+}
+
+.servtext {
+    padding: 20px;
 }
 
 body > div > div > hr:nth-child(6) {
