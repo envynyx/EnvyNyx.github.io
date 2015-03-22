@@ -250,6 +250,9 @@ ul.nav a {
     color: #111;
 }
 
+.equal {
+    display: flex;
+}
 
 body > div > div > hr:nth-child(6) {
     width: 25%;
