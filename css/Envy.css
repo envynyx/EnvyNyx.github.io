@@ -250,6 +250,12 @@ ul.nav a {
     color: #111;
 }
 
+
+body > div > div > hr:nth-child(6) {
+    width: 25%;
+}
+
+
 .boxs:hover { 
     border: 5px solid #f0ad4e;
 }
