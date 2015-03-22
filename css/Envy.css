@@ -7,7 +7,7 @@ html {
 body {
     padding-top: 0px;
     margin-bottom: 50px;
-    background-color: #000;
+    background-color: #ebebeb;
     font-family: "Open Sans";
 }
 
@@ -126,6 +126,10 @@ ul.nav a {
     font-size: 16px;
 }
 
+#navbar > ul > div.open > ul {
+    border-radius: 7px;
+}
+
 /* End Navbar Customization */
 
 /* Footer Customization */
@@ -221,11 +225,8 @@ ul.nav a {
 }
 
 .feature hr {
-    margin-top: 0px;
-    margin-bottom: 10px;
-    border: 0;
+
     border-top: 1px solid #bbb;
-    width: 50%;
 }
 
 .feature h1 {
@@ -242,9 +243,11 @@ ul.nav a {
 }
 
 .feature img {
-    height: 150x;
-    width: 325px;
     text-align: center;
+}
+
+.fathead > div > h2 {
+    color: #111;
 }
 
 .boxs:hover { 
@@ -256,16 +259,26 @@ ul.nav a {
     color: #0088cc;
 }
 
-.glass {
-    background-color: #111;
-    opacity: 0.5;
-    color: #ebebeb;
+.wallpaper {
+    background-color: #ebebeb;
+    padding-top: 75px;
+    padding-bottom: 5%;
 }
 
-.banner {
-    padding-top:10px;
-    padding-bottom: 20px;
-    background-color: #dddddd;
+.wallpaper h2 {
+    font-family: "Play", serif;
+    color: #0088cc;
+    margin-bottom: 5px;
+}
+
+.wallpaper h1 {
+    font-family: "Play", serif;
+}
+
+body > div > div > hr {
+    border: 0;
+    border-top: 1px solid #bbb;
+
 }
 
 body > div.feature.marketing > hr {
