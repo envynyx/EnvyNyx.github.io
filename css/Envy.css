@@ -233,15 +233,6 @@ ul.nav a {
     font-family: cinzel;
 }
 
-.banner h4 {
-    font-family: "";
-    color: #666;
-}
-
-.banner h2 {
-    color: #0088cc;
-}
-
 .feature img {
     text-align: center;
 }
@@ -254,8 +245,31 @@ ul.nav a {
     display: flex;
 }
 
+.serv {
+    border: 1px solid #bbb;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.serv2 {
+    text-align: center;
+}
+
+.serv:hover {
+    border: 1px solid #bbb;
+    box-shadow: 0px 0px 10px #777;
+}
+
 body > div > div > hr:nth-child(6) {
     width: 25%;
+}
+
+body > div > div > div:nth-child(3) > div > h3 > hr {
+    width: 25%;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #bbb;
 }
 
 
