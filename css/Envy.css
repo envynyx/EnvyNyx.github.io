@@ -175,9 +175,6 @@ ul.nav a {
     text-decoration: none;
 }
 
-#breakfix {
-    width: 100%;
-}
 
 /* End Footer Customization */
 
@@ -282,6 +279,10 @@ ul.nav a {
     margin-left: 0px;
 }
 
+.exprow2 {
+    margin-bottom: 75px;
+}
+
 .exptop {
     padding: 20px 20px 0px 20px;
     margin: 0px;
@@ -330,9 +331,6 @@ ul.nav a {
     padding: 20px;
 }
 
-body > div > div > hr:nth-child(6) {
-    width: 25%;
-}
 
 body > div > div > div:nth-child(3) > div > h3 > hr {
     width: 25%;
@@ -365,6 +363,15 @@ body > div > div > div:nth-child(3) > div > h3 > hr {
 
 .wallpaper h1 {
     font-family: "Play", serif;
+}
+
+.header {
+    padding-bottom: 50px;
+}
+
+.pagebreak {
+    margin-top: 75px;
+    width: 75%
 }
 
 body > div > div > hr {

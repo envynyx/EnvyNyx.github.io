@@ -44,6 +44,29 @@
             width: 95%;
         }
 
+        #section0 .field {
+            display: block;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    
+        #conbtn {
+            display: block;
+            margin-left: 0;
+            margin-top: 4px;
+            margin-bottom: 50px;
+        }
+    
+        .context {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+         .context2 {
+            padding-left: 40px;
+            padding-right: 40px;
+            
+        }
 }
     
 
@@ -54,10 +77,32 @@
         }
 
             .serv {
-            margin-bottom: 20px;
-            width: 95%;
+                margin-bottom: 20px;
+                width: 95%;
+        }
+    
+            #section0 .field {
+                display: block;
+                padding-top: 5px;
+                padding-bottom: 5px;
+        }
+    
+            #conbtn {
+                display: block;
+                margin-left: 0;
+                margin-top: 4px;
+                margin-bottom: 50px;
         }
 
+            .context {
+                padding-left: 20px;
+                padding-right: 20px;
+        }
+    
+            .context2 {
+                padding-left: 40px;
+                padding-right: 40px;
+        }
 }
   
 /*          MD Screens */
@@ -71,6 +116,11 @@
             width: 95%;
         }       
 
+        #conbtn {
+            display: block;
+            margin-top: 4px;
+            margin-bottom: 50px;
+        }
 
 }
 
@@ -90,6 +140,12 @@
             display: block;
         }
     
+        #conbtn {
+            display: block;
+            margin-top: 4px;
+            margin-bottom: 50px;
+        }
+
         
 
 }
