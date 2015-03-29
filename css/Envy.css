@@ -7,7 +7,7 @@ html {
 body {
     padding-top: 0px;
     margin-bottom: 50px;
-    background-color: #ebebeb;
+    background-color: #fefefe;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -182,7 +182,7 @@ ul.nav a {
 
 /* Jumbotron */
 
-.jumbotron {
+.jumbotronmain {
     background-image: url("https://download.unsplash.com/photo-1415725070650-5c9d2f65bafc");
     background-position: right;
     background-attachment: fixed;
@@ -197,19 +197,19 @@ ul.nav a {
 
 }
 
-#jumbotron {
+#jumbotronmain {
     padding-bottom: 45px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.jumbotron h1 {
+.jumbotronmain h1 {
     font-family: Cinzel, serif;
     font-size: 72px;
     text-shadow: 0px 0px 5px #111;
 }
 
-.jumbotron p {
+.jumbotronmain p {
     color: #eee;
     text-shadow: 0px 0px 5px #111;
     font-size: 24px;
@@ -382,6 +382,12 @@ body > div > div > div:nth-child(3) > div > h3 > hr {
 .pagebreak {
     margin-top: 75px;
     width: 75%
+}
+
+.headerbreak {
+      margin-top: 5px;
+      width: 50%;
+      margin-bottom: 30px;
 }
 
 body > div > div > hr {
