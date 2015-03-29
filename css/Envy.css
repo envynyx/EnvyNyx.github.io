@@ -11,6 +11,10 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+body ul {
+    list-style: none;
+}
+
 /* Navbar Customuization */
 
 .navbar {
@@ -34,9 +38,7 @@ body {
 }
 
 .navbar-trans {
-    background-color: #111;
-    opacity: 0.95;
-    background-image: none; 
+    opacity: .95;
 }
 
  .navbar-inverse .navbar-text {
@@ -181,8 +183,8 @@ ul.nav a {
 /* Jumbotron */
 
 .jumbotron {
-    background-image: url("../images/backg.jpg");
-    background-position: bottom center;
+    background-image: url("https://download.unsplash.com/photo-1415725070650-5c9d2f65bafc");
+    background-position: right;
     background-attachment: fixed;
     margin-bottom: 0;
     padding-top: 100px;
@@ -203,6 +205,14 @@ ul.nav a {
 
 .jumbotron h1 {
     font-family: Cinzel, serif;
+    font-size: 72px;
+    text-shadow: 0px 0px 5px #111;
+}
+
+.jumbotron p {
+    color: #eee;
+    text-shadow: 0px 0px 5px #111;
+    font-size: 24px;
 }
 
 .homemail {
@@ -219,12 +229,12 @@ ul.nav a {
 
 .feature {
     padding: 30px;
-    background-color: #f5f5f5;
+    background-color: #fefefe;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
-    padding-bottom: 15px;
+    padding-bottom: 1%;
 }
 
 .feature h2 {
@@ -350,9 +360,9 @@ body > div > div > div:nth-child(3) > div > h3 > hr {
 }
 
 .wallpaper {
-    background-color: #f5f5f5;
+    background-color: #fefefe;
     padding-top: 75px;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 .wallpaper h2 {
@@ -381,11 +391,21 @@ body > div > div > hr {
 }
 
 body > div.feature.marketing > hr {
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #bbb;
     width: 100%;
+}
+
+.calendar {
+    border: 0px;
+    width: 700px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.events ul {
+    list-style: circle;
 }
 
 /* centered columns styles */

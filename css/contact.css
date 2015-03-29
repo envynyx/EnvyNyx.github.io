@@ -83,8 +83,18 @@ ul {
     margin-top: 4px;
 }
 
+#conbtn2 {
+    min-width: 96px;
+    max-width: 96px;
+}
+
 #section0 .field {
     display: flex;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.qr {
+    float: right;
+    width: 200px;
 }
