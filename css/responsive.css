@@ -76,6 +76,9 @@
             display: none;
         }
     
+        .pager {
+            margin-bottom: 50px;
+        }
 }
     
 
@@ -121,6 +124,10 @@
                 display: none;
         }
     
+        .pager {
+            margin-bottom: 50px;
+        }
+    
 }
   
 /*          MD Screens */
@@ -151,6 +158,10 @@
             height: 500px;
             margin-top: 20px;
             margin-left: 15%;
+        }
+    
+        .pager {
+            margin-bottom: 50px;
         }
 
 }

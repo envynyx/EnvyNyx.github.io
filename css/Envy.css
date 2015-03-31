@@ -414,6 +414,21 @@ body > div.feature.marketing > hr {
     list-style: circle;
 }
 
+.readmore {
+    margin-left: 45%;
+}
+
+.pager {
+    margin-top: 40px;
+}
+
+.pagerleft {
+    float: left;
+}
+
+.pagerright {
+    float: right;
+}
 /* centered columns styles */
 .row-centered {
     text-align:center;
