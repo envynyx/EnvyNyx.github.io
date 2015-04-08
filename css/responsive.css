@@ -98,6 +98,18 @@
             padding-right: 30px;
             margin-bottom: 50px;
         }
+    
+        .jumbotronmain h1 {
+            font-family: Cinzel, serif;
+            font-size: 40px;
+            text-shadow: 0px 0px 5px #111;
+        }
+    
+        .jumbotronmain p {
+            color: #eee;
+            text-shadow: 0px 0px 5px #111;
+            font-size: 16px;
+        }
 }
     
 
@@ -166,6 +178,18 @@
             margin-bottom: 100px;
         }
     
+        .jumbotronmain h1 {
+            font-family: Cinzel, serif;
+            font-size: 50px;
+            text-shadow: 0px 0px 5px #111;
+        }
+    
+        .jumbotronmain p {
+            color: #eee;
+            text-shadow: 0px 0px 5px #111;
+            font-size: 18px;
+        }
+
 
     
 }
