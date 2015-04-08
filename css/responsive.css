@@ -35,7 +35,7 @@
 }
  
 /*          XS Screens */
-@media (min-width: 350px) and (max-width: 432px) { 
+@media (min-width: 328px) and (max-width: 432px) { 
         .expborder {
             border: 1px solid #bbb;
         }
@@ -77,6 +77,25 @@
         }
     
         .pager {
+            margin-bottom: 50px;
+        }
+    
+        .blog-sidebar {
+            padding-left: 5%;
+        }
+    
+        .blog-main {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    
+        body > nav > div > div.navbar-header {
+            padding-left: 5%;
+        }
+    
+        .tileblock {
+            padding-left: 30px;
+            padding-right: 30px;
             margin-bottom: 50px;
         }
 }
@@ -128,6 +147,27 @@
             margin-bottom: 50px;
         }
     
+        .blog-sidebar {
+            padding-left: 5%;
+        }
+    
+        .blog-main {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    
+         body > nav > div > div.navbar-header {
+            padding-left: 5%;
+        }
+    
+        .tileblock {
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 100px;
+        }
+    
+
+    
 }
   
 /*          MD Screens */
@@ -161,6 +201,25 @@
         }
     
         .pager {
+            margin-bottom: 50px;
+        }
+    
+        .blog-sidebar {
+            padding-left: 5%;
+        }
+    
+        .blog-main {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    
+         body > nav > div > div.navbar-header {
+            padding-left: 5%;
+        }
+    
+        .tileblock {
+            padding-left: 30px;
+            padding-right: 30px;
             margin-bottom: 50px;
         }
 
@@ -199,6 +258,12 @@
             margin-top: 20px;
             margin-left: 10%;
         }
+    
+        .tileblock {
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 50px;
+        }
 
         
 
@@ -221,5 +286,16 @@
             height: 500px;
             margin-top: 20px;
             margin-left: 10%;
+        }
+    
+        .tileblock {
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 50px;
+        }
+    
+        .tiletext {
+            padding-left: 15px;
+            padding-right: 15px;
         }
 }
