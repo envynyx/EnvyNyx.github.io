@@ -26,6 +26,7 @@
     <link href="css/Envy.css" rel="stylesheet">
     <link href="css/Components.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/asgard.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,11 +41,19 @@
     <nav class="navbar navbar-inverse navbar-fixed-top btn-glass navbar-trans">
       <div class="container">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle navbar-toggle-as collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <a class="btn btn-sm btn-warning"  id="asnavbtnsm" href="#" role="button">Get Asgard</a>
+          </button>
           <a clear=left class="navbar-brand" href="index.html">
         <img alt="Brand" id="logo" src="images/logo.png">
             </a>
           <p float=left class="navbar-text">Asgard</p>
         </div>
+          <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right uppercase">
+          <div class="">
+  <a class="btn btn-sm btn-warning"  id="asnavbtn" href="#" role="button">Get Asgard</a>
+</div>
 
       </div>
     </nav>
@@ -112,11 +121,11 @@
     
     <hr class="pagebreak">
             <div class="row row-centered">
-                <div class="col-md-3  col-centered">
-                    <h4>Contact Us Today</h4>
+                <div class="col-md-4 col-centered hidden-xs">
+                    <a class="btn btn-warning btn-block" href="contact.html">Secure Your Code Delivery Today!</a>
                 </div>
-                <div class="col-md-2 col-centered">
-                    <a class="btn btn-warning btn-block" href="contact.html">Learn More</a>
+                <div class="visible-xs col-xs-12 col-centered" id="asgetbtn">
+                    <a class="btn btn-warning btn-block" href="contact.html">Get Asgard Today!</a>
                 </div>
             </div>
 </div>

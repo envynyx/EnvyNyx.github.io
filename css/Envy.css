@@ -452,30 +452,12 @@ body > div.feature.marketing > hr {
     margin-top: 40px;
 }
 
-.asblock {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
-.jumbotronas {
-    background-image: url("https://download.unsplash.com/photo-1420406676079-b8491f2d07c8");
-    background-position: bottom right;
-    background-attachment: fixed;
-    margin-bottom: 0;
-    padding-top: 100px;
-    text-align: center;
-    color: #ebebeb;
-    font-family: sans-serif;
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-bottom: 0px;
-    background-color: #222;
 
-}
 
-.asimg {
-    box-shadow: 0px 0px 10px #333;
-}
+
+
+
 
 
 .tiletext {

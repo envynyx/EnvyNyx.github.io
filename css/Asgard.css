@@ -1,0 +1,87 @@
+.asblock {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.jumbotronas {
+    background-image: url("https://download.unsplash.com/photo-1420406676079-b8491f2d07c8");
+    background-position: bottom right;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    padding-top: 100px;
+    text-align: center;
+    color: #ebebeb;
+    font-family: sans-serif;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0px;
+    background-color: #222;
+
+}
+
+.asimg {
+    box-shadow: 0px 0px 10px #333;
+}
+
+
+
+#asnavbtn {
+      opacity: 1;
+      height: 30px;
+      font-size: 20px;
+      padding: 10px;
+      margin-top: -15px;
+      padding-top: 0px;
+      color: #fefefe;
+}
+
+#asnavbtnsm {
+  opacity: 1;
+  height: 30px;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: -5px;
+  padding-top: 0px;
+  color: #fefefe;
+  margin-bottom: 1%;
+}
+
+#asgetbtn {
+      width: 200px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 5px;
+}
+
+.navbar-toggle-as {
+      position: relative;
+      float: right;
+      padding: 9px 10px;
+      margin-top: 8px;
+      margin-right: 15px;
+      margin-bottom: 8px;
+      background-color: inherit;
+      border: none;
+}
+
+.navbar-toggle-as:hover {
+      position: relative;
+      float: right;
+      padding: 9px 10px;
+      margin-top: 8px;
+      margin-right: 15px;
+      margin-bottom: 8px;
+      background-color: inherit;
+      border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+   background-color: inherit;
+}
+
+/*          TINY Screens */
+@media (min-width: 328px) and (max-width: 400px) {
+    .navbar-toggle-as {
+        display: none;
+    }
+}
