@@ -44,7 +44,6 @@ a h3:hover {
     margin-left: 10px;
 }
 
-
 .navbar-brand {
     margin: 0px 0px;
     padding: 15px 0px;
@@ -212,7 +211,7 @@ ul.nav a {
 /* Jumbotron */
 
 .jumbotronmain {
-    background-image: url("https://download.unsplash.com/photo-1415725070650-5c9d2f65bafc");
+    background-image: url("../images/homebg.jpg");
     background-position: right;
     background-attachment: fixed;
     margin-bottom: 0;

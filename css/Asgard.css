@@ -1,37 +1,102 @@
+p {
+    font-family: "open sans", serif;
+}
+
+.featurette h2 {
+    font-family: "Play", serif;
+}
+
+.aswrapper {
+    position: relative;
+}
+
 .asblock {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.jumbotronas {
-    background-image: url("https://download.unsplash.com/photo-1420406676079-b8491f2d07c8");
-    background-position: bottom right;
-    background-attachment: fixed;
-    margin-bottom: 0;
-    padding-top: 100px;
-    text-align: center;
-    color: #ebebeb;
-    font-family: sans-serif;
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-bottom: 0px;
-    background-color: #222;
-
+.asbottombtn {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: cinzel, serif;
 }
+
+.feature {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.asbg1 {
+    background: rgb(76,76,76); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(76,76,76,1)), color-stop(100%,rgba(19,19,19,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(19,19,19,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(19,19,19,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(19,19,19,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(76,76,76,1) 0%,rgba(19,19,19,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: white;
+}
+
+.asbg2 {
+background: rgb(53,53,53); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(53,53,53,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(53,53,53,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(53,53,53,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(53,53,53,1) 0%,rgba(0,0,0,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(53,53,53,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(53,53,53,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: white;
+}
+
+.asbg3 {
+    background: rgb(255,255,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#asjumbotron{
+    background-image: url("../images/gridmoon.jpg");
+    background-position: bottom;
+}
+
 
 .asimg {
-    box-shadow: 0px 0px 10px #333;
+    box-shadow: 0px 0px 10px #eee;
 }
 
 
+.asgetbtnsticky {
+    opacity: 0.6;
+      top: 30px;
+      z-index: 999999;
+      right: 15px;
+      position: fixed;
+      font-family: sans-serif;
+    font-size: 20px;
+}
+
+.asgetbtnsticky:hover {
+    opacity: 1.0;
+      top: 30px;
+      z-index: 999999;
+      right: 15px;
+      position: fixed;
+      font-family: sans-serif;
+    font-size: 20px;
+}
 
 #asnavbtn {
-      opacity: 1;
       height: 30px;
-      font-size: 20px;
-      padding: 10px;
+      font-size: 16px;
       margin-top: -15px;
-      padding-top: 0px;
       color: #fefefe;
 }
 
@@ -51,6 +116,31 @@
       text-align: center;
       margin: 0 auto;
       margin-bottom: 5px;
+}
+
+.asbrand {
+    top: 0px;
+      z-index: 999999;
+      left: 15px;
+      position: absolute;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 30px;
+    
+}
+
+.asbrand p {
+    color: #eee;
+    font-family: "Cinzel", serif;
+    font-size: 45px;
+    text-shadow: 1px 1px 1px #111;
+    display: inline-flex;
+}
+
+
+.asbrand #logo {
+      height: 40px;
+      width: 50px;
+      margin-top: 10px;
 }
 
 .navbar-toggle-as {
@@ -83,5 +173,13 @@
 @media (min-width: 328px) and (max-width: 400px) {
     .navbar-toggle-as {
         display: none;
+    }
+    
+    .asgetbtnsticky {
+        display: none;
+    }
+    
+    .asbottombtn {
+        font-size: 16px;
     }
 }

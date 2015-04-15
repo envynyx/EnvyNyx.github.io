@@ -26,7 +26,8 @@
     <link href="css/Envy.css" rel="stylesheet">
     <link href="css/Components.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    <link href="css/Asgard.css" rel="stylesheet">
+    <link href="css/asgard.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,13 +37,26 @@
   </head>
 
   <body>
+      <div class="aswrapper">
+          
+            
+             <div class="asbrand"><a clear=left class="navbar-brand" href="index.html">
+        <img alt="Brand" id="logo" src="images/logo.png">
+            </a>
+          <p float=left class="navbar-text"></p>
+        </div>
+         
+      
+               <div>
+  <a class="btn btn-sm btn-primary asgentbtn asgetbtnsticky"  id="asnavbtn" href="#" role="button">Download</a>
+</div>
       
 <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top btn-glass navbar-trans">
+<!--    <nav class="navbar navbar-inverse navbar-fixed-top btn-glass navbar-trans">
       <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle navbar-toggle-as collapsed" >
-            <a class="btn btn-sm btn-warning"  id="asnavbtnsm" href="#" role="button">Get Asgard</a>
+            <!-- <a class="btn btn-sm btn-warning"  id="asnavbtnsm" href="#" role="button">Get Asgard</a> 
           </button>
           <a clear=left class="navbar-brand" href="index.html">
         <img alt="Brand" id="logo" src="images/logo.png">
@@ -50,70 +64,113 @@
           <p float=left class="navbar-text">Asgard</p>
         </div>
           <div id="navbar" class="navbar-collapse collapse">
-           <ul class="nav navbar-nav navbar-right uppercase">
-          <div class="">
+           <ul class="nav navbar-nav navbar-right uppercase"> -->
+          <!-- <div class="">
   <a class="btn btn-sm btn-warning"  id="asnavbtn" href="#" role="button">Get Asgard</a>
-</div>
+</div> -->
 
       </div>
     </nav>
-<!-- End Navbar -->
+<!-- End Navbar --> 
 
+
+          
 <!-- Main Jumbotron -->
-    <div class="jumbotron jumbotronmain jumbotronas">
+    <div class="jumbotron jumbotronmain " id=
+"asjumbotron">
       <div class="container" id="jumbotronmain">
         <h1>Asgard</h1>
-        <p>ASGard is a package manager that solves the secure code delivery problem. ASGard works standalone or in conjunction with an existing package manager (e.g. Composer).</p>
+        <p><strong>ASGard offers secure code delivery</strong> in contrast to the industry norm of dangerously piping unverified data from the network to a process.</p>
         <p><a class="btn btn-lg btn-warning" href="#" role="button">Subscribe &raquo;</a></p>
       </div>
          <!-- <div class="btn-glass homemail"><br><br></div> -->
     </div>
 <!-- End Jumbotron -->
     
-     
+
       
       
     
-<div class="feature">
-    <div class="container-fluid">
+<div class="feature asbg2">
+    <div class="container">
       <!-- Example row of columns -->
         
 
  <!-- START THE FEATURETTES -->
-
       <div class="row featurette asblock">
-        <div class="col-md-7 text-left">
-          <h2 class="featurette-heading">Simple </h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        
+          <div class="col-md-5 text-left">
+          <h2 class="featurette-heading">Simple</h2>
+                    <p class="lead">Most users will only ever use these three commands:</p>
+                    <ol class="">
+                        <li><code>asgard license add (yourlicensekeyhere)</code></li>
+                        <li><code>asgard get (packagename)</code></li>
+                        <li><code>asgard update</code></li>
+                    </ol>
+                    <p class="">
+                        Advanced users (DevOps managers, senior developers,
+                        security engineers, and system administrators) also benefit
+                        from the full capabilities we offer.
+                    </p>
+
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block asimg" src="images/download.jpg" >
+        <div class="col-md-7">
+          <a href="images/asgard1.png" data-lightbox="image-1"><img class="featurette-image img-responsive asim" src="images/asgard1.png"></a>
+        </div> 
+      </div>
+</div></div>
+
+    <div class="feature asbg1">
+    <div class="container">  
+    <div class="row featurette asblock">
+        <div class="col-md-5 col-md-push-7 text-left">
+  <h2 class="featurette-heading">Secure</h2>
+                    <p class="lead">Asgard combines the security of <b>modern asymmetric cryptography</b> with the resilience and innovation of distributed ledgers to secure your source code acquisition process.</p>
+                    <p class="">All packages are audited by security experts, cryptographically signed by <a href="https://paragonie.com">Paragon Initiative Enterprises</a>, 
+                        and verified by indepdendent notaries through a blockchain protocol.
+                    </p>
+                    <p class="">
+                        For our cryptographic algorithms, we use <a target="_blank" href="https://github.com/jedisct1/libsodium">libsodium</a>,
+                        a portable version of <a target="_blank" href="http://nacl.cr.yp.to/">NaCl</a>&mdash;the world's most secure
+                        elliptic curve and high-speed cryptography library.
+                    </p>
+
+        </div>
+        <div class="col-md-7 col-md-pull-5">
+          <a href="images/nacl.png" data-lightbox="image-2"><img class="featurette-image img-responsive asim" src="images/nacl.png"></a>
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      </div></div>
 
-      <div class="row featurette asblock">
-        <div class="col-md-7 col-md-push-5 text-right">
-          <h2 class="featurette-heading">Secure </h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block asimg" src="images/download.jpg" >
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette asblock">
-        <div class="col-md-7 text-left">
+    <div class="feature asbg2">
+    <div class="container">  
+    <div class="row featurette asblock">
+        <div class="col-md-5 text-left">
           <h2 class="featurette-heading">Scaleable </h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <p class="lead">We publish our signed package updates in a distributed ledger, similar to the one used in Bitcoin. Anyone with the Asgard client can run their own notary server for public or private use with these three commands:
+                    </p>
+                    <ol class="">
+                        <li>
+                            <code>asgard notary up</code>
+                            starts the notary server (and generates a tag to share with clients the first time it's run).
+                        </li>
+                        <li>
+                            <code>asgard peer add (tag)</code>
+                            adds a server to your list of trusted notaries.
+                        </li>
+                        <li>
+                            <code>asgard peer flush-untrusted</code>
+                            removes the pre-installed notaries that we provide for convenience.
+                        </li>
+                    </ol>
+
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block asimg" src="images/download.jpg" >
+        <div class="col-md-7">
+          <a href="images/asgard2.png" data-lightbox="image-1"><img class="featurette-image img-responsive asim" src="images/asgard2.png"></a>
         </div>
       </div>
+        
 
 
       <!-- /END THE FEATURETTES -->
@@ -122,22 +179,23 @@
     <hr class="pagebreak">
             <div class="row row-centered">
                 <div class="col-md-4 col-centered hidden-xs">
-                    <a class="btn btn-warning btn-block" href="contact.html">Secure Your Code Delivery Today!</a>
+                    <a class="btn btn-success btn-block asbottombtn" href="contact.html">Secure Your Code Delivery Today!</a>
                 </div>
                 <div class="visible-xs col-xs-12 col-centered" id="asgetbtn">
-                    <a class="btn btn-warning btn-block" href="contact.html">Get Asgard Today!</a>
+                    <a class="btn btn-success btn-block asbottombtn" href="contact.html">Get Asgard now!</a>
                 </div>
             </div>
+        </div></div>
 </div>
-      
+     
+</div>
       
 <!-- Start Footer -->
       <footer class="footer">
         <div class="container btn-glass">
             <br><div class="row row-centered">
             <div class="col-lg-6    col-centered footercopy"><p class="text-left">Copyright © 2015 Paragon Initiave Enterprise, LLC. All right reserved.   Orlando Fl</p></div><div class="col-lg-4  col-centered text-right"><a href="#"><i class="fa fa-2x fa-github-square pad"></i></a> <a href="#"><i class="fa fa-2x fa-twitter-square pad"></i></a>
-            
-        <p class="footertext">V 0.1</p>
+
           </div>
       </footer>
      <!-- /container -->
@@ -148,5 +206,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+   
   </body>
 </html>
