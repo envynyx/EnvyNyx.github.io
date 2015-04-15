@@ -1,9 +1,9 @@
 p {
-    font-family: "open sans", serif;
+    font-family: 'Open Sans', serif;
 }
 
 .featurette h2 {
-    font-family: "Play", serif;
+    font-family: 'Play', serif;
 }
 
 .aswrapper {
@@ -79,7 +79,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       z-index: 999999;
       right: 15px;
       position: fixed;
-      font-family: sans-serif;
+      font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
@@ -89,7 +89,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       z-index: 999999;
       right: 15px;
       position: fixed;
-      font-family: sans-serif;
+      font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
@@ -130,7 +130,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .asbrand p {
     color: #eee;
-    font-family: "Cinzel", serif;
+    font-family: 'Cinzel', serif;
     font-size: 45px;
     text-shadow: 1px 1px 1px #111;
     display: inline-flex;
@@ -168,6 +168,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
    background-color: inherit;
 }
+
+.feature hr {
+  border-top: 0px solid #bbb;
 
 /*          TINY Screens */
 @media (min-width: 328px) and (max-width: 400px) {

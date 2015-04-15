@@ -115,6 +115,10 @@
         #logo {
             margin-right: 10px;
         }
+    
+        .asbottombtn {
+        font-size: 16px;
+    }
 
 }
     
@@ -200,7 +204,9 @@
             margin-right: 10px;
         }
 
-
+     .asbottombtn {
+        font-size: 16px;
+    }
     
 }
   
@@ -259,6 +265,10 @@
         #logo {
             margin-right: 10px;
         }
+    
+     .asbottombtn {
+        font-size: 16px;
+    }
 }
 
 

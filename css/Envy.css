@@ -8,7 +8,7 @@ body {
     padding-top: 0px;
     margin-bottom: 50px;
     background-color: #fefefe;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .active {
@@ -56,7 +56,7 @@ a h3:hover {
  .navbar-inverse .navbar-text {
     color: #fff;
     font-size: 30px;
-    font-family: Cinzel, serif;
+    font-family: 'Cinzel', serif;
     font-weight: 500;
 }
 
@@ -218,7 +218,7 @@ ul.nav a {
     padding-top: 100px;
     text-align: center;
     color: #ebebeb;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 0%;
     padding-right: 0%;
     padding-bottom: 0px;
@@ -233,7 +233,7 @@ ul.nav a {
 }
 
 .jumbotronmain h1 {
-    font-family: Cinzel, serif;
+    font-family: 'Cinzel', serif;
     font-size: 72px;
     text-shadow: 0px 0px 5px #111;
 }
@@ -267,7 +267,7 @@ ul.nav a {
 }
 
 .feature h2 {
-    font-family: "Open Sans", serif;
+    font-family: 'Open Sans', serif;
     color: #0088cc;
     margin-bottom: 5px;
 }
@@ -395,13 +395,13 @@ body > div > div > div:nth-child(3) > div > h3 > hr {
 }
 
 .wallpaper h2 {
-    font-family: "Play", serif;
+    font-family: 'Play', serif;
     color: #0088cc;
     margin-bottom: 5px;
 }
 
 .wallpaper h1 {
-    font-family: "Play", serif;
+    font-family: 'Play', serif;
 }
 
 .header {
