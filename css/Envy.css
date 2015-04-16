@@ -360,6 +360,10 @@ ul.nav a {
     padding-bottom: 20px;
 }
 
+.rowfix {
+    margin: 0;
+}
+
 .serv {
     border: 1px solid #bbb;
     margin-left: 10px;
