@@ -346,6 +346,11 @@ ul.nav a {
     margin-bottom: 15px;
 }
 
+.exptext i img {
+    height: 20px;
+    width: 20px;
+}
+
 .exptext .row2 {
     padding-bottom: 15px;
 }
