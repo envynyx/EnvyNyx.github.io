@@ -31,6 +31,10 @@
             display:block;
         }
     
+     .featureheader {
+            padding-bottom: 10%;
+        }
+    
 
 }
  
@@ -96,12 +100,12 @@
         .tileblock {
             padding-left: 30px;
             padding-right: 30px;
-            margin-bottom: 50px;
+            margin-bottom: 10%;
         }
     
         .jumbotronmain h1 {
             font-family: Cinzel, serif;
-            font-size: 40px;
+            font-size: 42px;
             text-shadow: 0px 0px 5px #111;
         }
     
@@ -119,6 +123,10 @@
         .asbottombtn {
         font-size: 16px;
     }
+    
+     .featureheader {
+            padding-bottom: 10%;
+        }
 
 }
     
@@ -185,12 +193,12 @@
         .tileblock {
             padding-left: 30px;
             padding-right: 30px;
-            margin-bottom: 100px;
+            margin-bottom: 10%;
         }
     
         .jumbotronmain h1 {
-            font-family: Cinzel, serif;
-            font-size: 50px;
+            font-family: Cinzel, serif%;
+            font-size: 56px;
             text-shadow: 0px 0px 5px #111;
         }
     
@@ -207,6 +215,10 @@
      .asbottombtn {
         font-size: 16px;
     }
+    
+     .featureheader {
+            padding-bottom: 10%;
+        }
     
 }
   
@@ -259,7 +271,7 @@
     
         .tileblock {
             padding-right: 30px;
-            margin-bottom: 50px;
+            margin-bottom: 10%;
         }
 
         #logo {
@@ -269,6 +281,10 @@
      .asbottombtn {
         font-size: 16px;
     }
+    
+     .featureheader {
+            padding-bottom: 10%;
+        }
 }
 
 
@@ -308,10 +324,15 @@
         .tileblock {
             padding-left: 30px;
             padding-right: 30px;
-            margin-bottom: 50px;
+            margin-bottom: 10%;
+            display: inline-block;
         }
-
         
+        .featureheader {
+            padding-bottom: 10%;
+        }
+        
+    
 
 }
 
@@ -337,7 +358,7 @@
         .tileblock {
             padding-left: 30px;
             padding-right: 30px;
-            margin-bottom: 50px;
+            margin-bottom: 1%;
         }
     
         .tiletext {
