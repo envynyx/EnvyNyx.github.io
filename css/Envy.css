@@ -12,7 +12,7 @@ body {
 }
 
 .active {
-    color: white;
+    color: #777;
 }
 
 body ul {
@@ -50,6 +50,8 @@ a h3:hover {
 }
 
 .navbar-trans {
+    background-image: none;
+    background-color: #111;
     opacity: .95;
 }
 
@@ -61,7 +63,7 @@ a h3:hover {
 }
 
 ul.nav {
-    color: white;
+    color: #777;
     font-size: 20px;
     font-family: serif;
     padding-top: 15px;
@@ -104,26 +106,26 @@ ul.nav a {
 
 .navbar-right a {
     color: #777;
-    padding-top; 5px;
+    padding-top; 0px;
 }
 
 .navbar-right a:hover {
-    color: #0088cc;
+    color: #777;
     text-decoration: none;
 }
 
 .navbar-right a:focus {
-    color: white;
+    color: #777;
     text-decoration: none;
 }
 
 .navbar-right> a:focus:hover {
-     color: White;
+     color: #777;
     text-decoration: none;
 }
 
 #navbar > ul > div.open > ul > li> a:hover {
-    color: #0088cc;
+    color: #333;
 }
 
 
@@ -138,7 +140,7 @@ ul.nav a {
 
 
 #activedrop {
-    color: #0088cc;
+    color: #777;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus  {
@@ -153,15 +155,15 @@ ul.nav a {
 }
 
 #navbar > ul > div.open > ul {
-    border-radius: 7px;
+    border-radius: 0px;
 }
 
 #active  a {
-    color:white;
+    color:#777;
 }
 
 #active a:hover {
-    color: white;
+    color: #777;
 }
 
 /* End Navbar Customization */
@@ -169,7 +171,7 @@ ul.nav a {
 /* Footer Customization */
 
 .footer {
-    color: #777;
+    color: #fff;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -203,6 +205,10 @@ ul.nav a {
 
 .footertext {
     display: inline;
+}
+
+.footer-bg {
+    background-color: #000;
 }
 
 
@@ -252,6 +258,10 @@ ul.nav a {
 }
 
 /* End Jumbotron */
+
+.divider {
+    background-color: #0088cc;
+}
 
 /* feature*/
 
