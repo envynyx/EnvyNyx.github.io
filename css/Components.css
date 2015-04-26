@@ -43,6 +43,11 @@
   background-image: none;
 }
 
+.panel-ultra {
+  background-image: linear-gradient(to bottom,#bf8cf2 0,#b276ef 100%);
+  border-color: #b276ef;
+}
+
 .glass {
     background-color: #111;
     opacity: 0.5;
