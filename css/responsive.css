@@ -127,6 +127,16 @@
      .featureheader {
             padding-bottom: 10%;
         }
+        
+        .aspanel {
+            width: 80%;
+        }
+    
+        #footerlink {
+            float: none;
+            margin-right: 0%;
+        }  
+
 
 }
     
@@ -219,6 +229,16 @@
      .featureheader {
             padding-bottom: 10%;
         }
+        
+        .aspanel {
+            width: 80%;
+        }
+    
+        #footerlink {
+            float: none;
+            margin-right: 0%;
+        }  
+
     
 }
   
@@ -245,11 +265,7 @@
         } 
     
         .calendar {
-            border: 0px;
-            width: 450px;
-            height: 500px;
-            margin-top: 20px;
-            margin-left: 15%;
+            display: none;
         }
     
         .pager {
@@ -285,6 +301,16 @@
      .featureheader {
             padding-bottom: 10%;
         }
+        
+        .aspanel {
+            width: 80%;
+        }
+    
+        #footerlink {
+            float: none;
+            margin-right: 0%;
+        }        
+
 }
 
 
@@ -292,6 +318,10 @@
 @media (min-width: 768px) and (max-width: 991px) { 
         .expborder {
             border: 1px solid #bbb;
+        }
+    
+        .container {
+            width: 100%;
         }
     
         .serv {
@@ -315,10 +345,12 @@
     
         .calendar {
             border: 0px;
-            width: 550px;
+            width: 75%;
             height: 500px;
             margin-top: 20px;
-            margin-left: 10%;
+            left: 50%;
+            margin-left: -40%;
+            position: relative;
         }
     
         .tileblock {
@@ -331,7 +363,11 @@
         .featureheader {
             padding-bottom: 10%;
         }
-        
+    
+        .aspanel {
+            width: 80%;
+        }
+
 
 }
 
@@ -348,10 +384,15 @@
 
         .calendar {
             border: 0px;
-            width: 550px;
+            width: 75%s;
             height: 500px;
             margin-top: 20px;
-            margin-left: 10%;
+            width: 75%;
+            height: 500px;
+            margin-top: 20px;
+            left: 50%;
+            margin-left: -40%;
+            position: relative;
         }
     
         .tileblock {
@@ -369,6 +410,10 @@
             margin-top: 31px;
             margin-bottom: 32px;
         }
+        
+        .calendar {
+            width: 90%
+        }
 }
 
 @media(min-width:1200px){
@@ -376,6 +421,10 @@
     .as50 {
         padding-top: 28px;
         padding-bottom: 28px;
+    }
+    
+    .calendar {
+        width: 100%;
     }
     
 }

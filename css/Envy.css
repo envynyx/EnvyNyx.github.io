@@ -182,8 +182,15 @@ ul.nav a {
     width: 100%;
 }
 
-.footercopy {
+#footercopy {
     text-align: left;
+    float: left;
+    margin-left: 5%;
+}
+
+#footerlink {
+    float: right;
+    margin-right: 5%;
 }
 
 .footerlinks {
@@ -209,6 +216,10 @@ ul.nav a {
 
 .footer-bg {
     background-color: #000;
+}
+
+.footfix {
+    margin: 0 auto;
 }
 
 
@@ -458,8 +469,23 @@ body > div > div > div:nth-child(3) > div > h3 > hr {
 
 .calendar {
     border: 0px;
-    width: 700px;
+    width: 400px;
     height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.eventspanel {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.calendar2 {
+    border: 0px;
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
