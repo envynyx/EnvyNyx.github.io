@@ -285,7 +285,9 @@ ul.nav a {
 /* End Jumbotron */
 
 .divider {
-    background-color: #0088cc;
+    background-image: radial-gradient( rgba(0,0,0,0.0), rgba(0,0,0,0.3));
+    background-color: #333;
+    padding-top: 10px;
 }
 
 /* feature*/
@@ -296,6 +298,8 @@ ul.nav a {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .feature h2 {

@@ -108,7 +108,7 @@ h3 {
 .asbreak {
     background-image: radial-gradient( rgba(0,0,0,0.0), rgba(0,0,0,0.3));
     background-color: #333;
-    margin-bottom: 20px;
+    padding: 10px;
 }
 
 
@@ -167,6 +167,14 @@ h3 {
 
 .panel-warning {
     border-color: #ddd;
+}
+
+.panel {
+    border: 1px solid #ddd;
+}
+
+ul.lead {
+    padding-left: 20px;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
