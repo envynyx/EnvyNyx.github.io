@@ -90,7 +90,7 @@ ul.nav a {
 }*/
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #0088cc;
+    color: #777;
 }
 
 
@@ -107,6 +107,10 @@ ul.nav a {
 .navbar-right a {
     color: #777;
     padding-top; 0px;
+}
+
+#navbar > ul > a {
+    padding-top: 5px;
 }
 
 .navbar-right a:hover {
@@ -166,6 +170,14 @@ ul.nav a {
     color: #777;
 }
 
+.navbar-inverse .navbar-nav>.open>a {
+    color: #777;
+}
+
+.navbar-inverse .navbar-nav>.open>a:focus {
+    color: #777;
+}
+
 /* End Navbar Customization */
 
 /* Footer Customization */
@@ -186,6 +198,7 @@ ul.nav a {
     text-align: left;
     float: left;
     margin-left: 5%;
+    margin-top: 5px;
 }
 
 #footerlink {
@@ -199,6 +212,7 @@ ul.nav a {
 
 .footer i {
     padding-right: 5px;
+    margin-bottom: 5px;
 }
 
 .footer a {
@@ -484,7 +498,7 @@ body > div > div > div:nth-child(3) > div > h3 > hr {
 .calendar2 {
     border: 0px;
     width: 75%;
-    height: 600px;
+    height: 350px;
     margin: 0 auto;
     margin-top: 20px;
 }
