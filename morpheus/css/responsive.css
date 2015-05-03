@@ -46,20 +46,35 @@
     .text-center-xs {
       text-align: center;
     }
+
+    #footercopy p {
+      margin-top: 5px;
+      margin-bottom: 0px;
+    }
 }
 
 /*          XS Screens */
-@media (min-width: 328px) and (max-width: 432px) {
+@media (min-width: 320px) and (max-width: 479px) {
 
   .feature {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .feature h2 {
-    font-size: 3rem;
-    text-align: center;
 
+  .imgpad {
+    margin-top: 1rem;
   }
+
+  .feature h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .text-center-xs {
+    display: inline-flex;
+    padding: 0px;
+  }
+
     #footerlink {
         float: none;
         margin-right: 0%;
@@ -68,15 +83,22 @@
     .footfix {
       padding-bottom: 15px;
     }
+
+    #footerlink, #footercopy {text-align: center}
 }
 
-/*          SM Screens */
-@media (min-width: 433px) and (max-width: 571px) {
+/*  Extra Small Screens (phone) */
+@media (min-width: 480px) and (max-width: 767px) {
 
   .feature {
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .imgpad {
+    margin-top: 1rem;
+  }
+
   .feature h2 {
     font-size: 4rem;
     text-align: center;
@@ -89,39 +111,40 @@
     .footfix {
       padding-bottom: 15px;
     }
+    #footerlink, #footercopy {text-align: center}
 }
 
-/*          MD Screens */
-@media (min-width: 572px) and (max-width: 767px) {
-
-  .feature {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .feature h2 {
-    font-size: 4rem;
-    text-align: center;
-  }
-    #footerlink {
-        float: none;
-        margin-right: 0%;
-    }
-
-    .footfix {
-      padding-bottom: 15px;
-    }
-}
-
-/*          LG Screens */
+/*  Small Screen (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 745px;
+  }
 
+  .imgpad {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .feature h2 {
+    text-align: center;
+  }
+  .text-center-xs {
+    text-align: center;
+  }
+  #footercopy {
+    font-size: 1.3rem;
+  }
 }
 
-/*          XL Screens */
+/*  Medium Screens (notebook) */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  .imgpad {
+    margin-top: 4rem;
+  }
 }
 
+/*  Large Screen (Desktop) */
 @media (min-width: 1200px) {
-
+  .imgpad {
+    margin-top: 4rem;
+  }
 }
