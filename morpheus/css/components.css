@@ -1,18 +1,7 @@
 /* STICKY FOOTER */
-html {
-  position: relative;
-  min-height: 100%;
-}
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 50px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 50px;;
+
 }
 
 .btn-ultra {
@@ -108,11 +97,16 @@ body {
 }
 
 .divider {
-
   /*background-color: rgba(0,149,216,0.8);*/
   /*background: radial-gradient(rgba(#111, #222));*/
   background-color: #222;
   padding-top: .5rem;
+}
+
+.dividerhr {
+  width: 75%;
+  margin: 0 auto;
+  border-top: solid 1px #777;
 }
 
 .glass-window {
@@ -148,6 +142,6 @@ body {
     margin: 0 auto;
 }
 .imgpad {
-    padding-top: 4rem;
+    margin-top: 4rem;
 }
 /* End Centered Columns */

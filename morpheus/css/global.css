@@ -1,9 +1,13 @@
 html {
-  margin-top: 50px;
+  position: relative;
+  min-height: 100%
 }
 
 body {
+  padding-top: 0px;
+  margin-top: 50px;
   background-color: #fdfdfd;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -89,6 +93,7 @@ h1, h2, h3 {
           }
           #navbar > ul > li.dropdown.open > ul > li> a {
             padding: 5px 10px;
+            color: #666;
           }
         /* Collapse Menu */
         body > nav > div > div.navbar-header > button{
@@ -131,8 +136,8 @@ h1, h2, h3 {
 .wrapper {
   padding-top: 0%;
   padding-bottom: 5%;
-  background-color: rgba(0,0,0,1);
-  color: #fff;
+  /*background-color: rgba(0,0,0,1);
+  color: #fff;*/
 }
 
 .feature {
@@ -142,7 +147,7 @@ h1, h2, h3 {
   .feature h2 {
     font-size: 38px;
     font-weight: 300;
-    color: #fff;
+    color: #333;
     text-transform: uppercase;
     }
     .feature a{;
@@ -157,7 +162,65 @@ h1, h2, h3 {
   .feature p.lead {
     font-size: 2rem;
   }
+  .feature p.text-blue {
+    padding: 15px 0px;
+  }
 
 .textpad {
   padding-top: 2rem;
+}
+
+/* FOOTER */
+.footer {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.footer .container {
+    width: 100%;
+}
+
+#footercopy {
+    text-align: left;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+#footerlink {
+    float: right;
+    margin-right: 5%;
+}
+
+.footerlinks {
+    text-align: right;
+}
+
+.footer i {
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+  .footer a:focus {
+      color: #fff;
+  }
+
+.footertext {
+    display: inline;
+}
+
+.footfix {
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
