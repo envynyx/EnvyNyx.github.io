@@ -145,3 +145,8 @@ body {
     margin-top: 4rem;
 }
 /* End Centered Columns */
+
+/* PAdding */
+.btnpad {
+  margin-right: 10px;
+}
