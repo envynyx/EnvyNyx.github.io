@@ -120,6 +120,10 @@
       width: 30%;
       padding-bottom: 5%;
     }
+
+    .para1, .para2 {
+      background-attachment: scroll;
+    }
 }
 
 @media (min-width: 1px) and (max-width: 479px) {
