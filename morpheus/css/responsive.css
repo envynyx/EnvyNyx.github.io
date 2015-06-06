@@ -42,13 +42,13 @@
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
       background-color: #fff;
     }
-    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    /*.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
       margin-right: -16px;
       margin-left: -16px;
-    }
+    }*/
 
     #navbar {
-      padding-left: 7%;
+
     }
 
     #logo{
