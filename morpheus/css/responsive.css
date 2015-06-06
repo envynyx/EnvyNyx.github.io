@@ -126,10 +126,10 @@
 /*          XS Screens */
 @media (min-width: 320px) and (max-width: 479px) {
 
-  .feature {
+  /*.feature {
     padding-left: 5%;
     padding-right: 5%;
-  }
+  }*/
 
   .imgpad {
     margin-top: 1rem;
