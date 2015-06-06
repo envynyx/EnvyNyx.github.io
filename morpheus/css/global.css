@@ -4,14 +4,23 @@ html {
 }
 
 body {
+  padding-bottom: 50px;
   padding-top: 0px;
-  margin-top: 50px;
+  margin-top: 0px;
   background-color: #fdfdfd;
   font-family: 'Open Sans', sans-serif;
+  background-position: left top;
+  background-size: cover;
+  color: #666;
+  position: relative;
 }
 
 p {
   font-family: "open sans", sans-serif;
+}
+
+.textpad strong {
+  color: #111;
 }
 
 h1, h2, h3 {
@@ -118,9 +127,10 @@ h1, h2, h3 {
 /* Jumbotron */
 .jumbotron {
   background-color: #222;
-  background-image: url("../images/gridmoon.jpg");
+  background-image: url("../images/homeb2.jpg");
   background-position: center;
   background-attachment: scroll;
+  background-size: cover;
   color: #fff;
   text-align: center;
   padding: 5% 15%;
@@ -168,6 +178,10 @@ h1, h2, h3 {
 
 .textpad {
   padding-top: 2rem;
+}
+
+.imgpad {
+  display: inherit;
 }
 
 /* FOOTER */
