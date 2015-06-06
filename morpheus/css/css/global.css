@@ -1,0 +1,240 @@
+html {
+  position: relative;
+  min-height: 100%
+}
+
+body {
+  padding-bottom: 50px;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color: #fdfdfd;
+  font-family: 'Open Sans', sans-serif;
+  background-position: left top;
+  background-size: cover;
+  color: #666;
+  position: relative;
+}
+
+p {
+  font-family: "open sans", sans-serif;
+}
+
+.textpad strong {
+  color: #111;
+}
+
+h1, h2, h3 {
+  font-family: Lato, sans-serif;
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* NAVBAR STYLE */
+.navbar {
+  max-height: 55px;
+}
+
+    .navbar-brand {
+      margin: 0px 0px;
+      padding: 15px 0px
+    }
+
+        #logo {
+          height: 32px;
+          width: 42px;
+        }
+
+    .navbar-text {
+      color: #fff;
+      font-size: 30px;
+      font-family: 'Cinzel',serif;
+      font-weight: 500;
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+        .navbar-text a {
+          color: #fff;
+          text-decoration: none;
+        }
+        .navbar-text a:hover {
+          color: #fff;
+          text-decoration: none;
+        }
+        .navbar-text a:focus {
+          color: #fff;
+          text-decoration: none;
+        }
+
+    .navbar-right {
+      padding-top: 10px;
+    }
+        .nav>li>a {
+          padding: 15px 10px;
+        }
+            #navbar > ul > li.dropdown.open > ul > li> a{
+              text-transform: none;
+            }
+        .navbar-right a {
+          font-family: Arimo, sans-serif;
+          font-size: 1.2em;
+          text-transform: uppercase;
+        }
+        .navbar-right .dropdown-menu {
+          right: auto;
+          left: auto;
+        }
+
+        #navbar > ul > li > a {
+          color: #777;}
+
+          #navbar > ul > li > a:hover { color: rgba(0,149,216,1)}
+
+          #navbar > ul > li > a:focus {color: #fff;}
+
+          #navbar > ul > li.dropdown.open > a {
+          background-color: inherit;
+          background-image: inherit;
+          color: #fff;
+          padding-bottom: 10px;
+          }
+          #navbar > ul > li.dropdown.open > ul > li> a {
+            padding: 5px 10px;
+            color: #666;
+          }
+        /* Collapse Menu */
+        body > nav > div > div.navbar-header > button{
+          color:#777;
+        }
+        .navbar-inverse .navbar-toggle{
+          border-color: transparent;
+          margin-top: 13px;
+          margin-right: 10px;
+        }
+          .navbar-inverse .navbar-toggle:hover{
+            background-color: inherit;
+          }
+          .navbar-inverse .navbar-toggle:focus{
+            background-color: inherit;
+          }
+
+          .navbar-inverse .navbar-toggle .icon-bar {
+            background-color: #777;
+          }
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #222;
+  background-image: url("../images/homeb2.jpg");
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 5% 15%;
+  margin-bottom: 0px;
+}
+    .jumbotron h1 {
+      font-family: Cinzel, serif;
+      font-size: 8rem;
+      padding-bottom: 2rem;
+    }
+
+/* Container Content */
+.wrapper {
+  padding-top: 0%;
+  padding-bottom: 5%;
+  /*background-color: rgba(0,0,0,1);
+  color: #fff;*/
+}
+
+.feature {
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+  .feature h2 {
+    font-size: 38px;
+    font-weight: 300;
+    color: #333;
+    text-transform: uppercase;
+    }
+    .feature a{;
+      text-decoration: none;
+    }
+    .feature a:hover{
+      text-decoration: none;
+    }
+  .feature p{
+    font-size: 1.5rem;
+  }
+  .feature p.lead {
+    font-size: 2rem;
+  }
+  .feature p.text-blue {
+    padding: 15px 0px;
+  }
+
+.textpad {
+  padding-top: 2rem;
+}
+
+.imgpad {
+  display: inherit;
+}
+
+/* FOOTER */
+.footer {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.footer .container {
+    width: 100%;
+}
+
+#footercopy {
+    text-align: left;
+    float: left;
+    /*margin-left: 5%;*/
+    margin-top: 5px;
+}
+
+#footerlink {
+    float: right;
+    /*margin-right: 5%;*/
+}
+
+.footerlinks {
+    text-align: right;
+}
+
+.footer i {
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+  .footer a:focus {
+      color: #fff;
+  }
+
+.footertext {
+    display: inline;
+}
+
+.footfix {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
