@@ -42,15 +42,14 @@
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
       background-color: #fff;
     }
-    /*.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
       margin-right: -16px;
       margin-left: -16px;
-    }*/
-
-    #navbar {
-
     }
 
+    #navbar {
+      padding-left: 7%;
+    }
     #logo{
       margin-left: 15px;
       margin-right: 10px;
@@ -123,14 +122,38 @@
     }
 }
 
+@media (min-width: 1px) and (max-width: 479px) {
+  .contactwrap {
+    width: 80%;
+  }
+
+  #section0 .field {
+    display: block;
+  }
+
+  .servl .row, .servr .row {
+    display: block;
+  }
+
+  .servtext {
+    width: auto;
+  }
+
+  #footerlink{
+    text-align: center;
+  }
+}
 /*          XS Screens */
 @media (min-width: 320px) and (max-width: 479px) {
 
-  /*.feature {
+  .feature {
     padding-left: 5%;
     padding-right: 5%;
-  }*/
-
+  }
+  .container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
   .imgpad {
     margin-top: 1rem;
   }
@@ -152,6 +175,22 @@
 
     .footfix {
       padding-bottom: 15px;
+    }
+
+    .contactwrap {
+      width: 80%;
+    }
+
+    #section0 .field {
+      display: block;
+    }
+
+    .servl .row, .servr .row {
+      display: block;
+    }
+
+    .servtext {
+      width: auto;
     }
 
     #footerlink, #footercopy {text-align: center}
