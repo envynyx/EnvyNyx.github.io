@@ -13,6 +13,7 @@ body {
   background-size: cover;
   color: #666;
   position: relative;
+  min-height: 100%;
 }
 
 p {
